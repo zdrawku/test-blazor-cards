@@ -1,0 +1,33 @@
+@page "/"
+
+<div class="master-view-container row">
+    <IgbCard Outlined="true" class="card" master-view-scope>
+        <IgbCardHeader>
+            <div slot="thumbnail">
+                <IgbAvatar Shape="AvatarShape.Circle" class="avatar" master-view-scope>
+                    <span Content="person" class="material-icons">person</span>
+                </IgbAvatar>
+            </div>
+            <h3 slot="title">
+                
+            </h3>
+            <h5 slot="subtitle">
+                
+            </h5>
+        </IgbCardHeader>
+        <IgbCardContent class="body-content" master-view-scope>
+            <p class="typography__body-1 text"></p>
+        </IgbCardContent>
+        <IgbCardMedia>
+            <img src="assets/Nature_Bamboo_trees_035243_.jpg" />
+        </IgbCardMedia>
+    </IgbCard>
+    <IgbInput DisplayType="InputType.Text" Label="Label/Placeholder" Outlined="true" class="input" master-view-scope></IgbInput>
+    <IgbButton Variant="ButtonVariant.Outlined" class="button" master-view-scope>
+        Button
+        <IgbRipple></IgbRipple>
+    </IgbButton>
+</div>
+
+@code {
+}

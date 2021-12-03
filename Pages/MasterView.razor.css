@@ -1,0 +1,39 @@
+.master-view-container {
+    align-items: stretch;
+    height: 100%;
+}
+.text {
+    height: max-content;
+    min-width: min-content;
+}
+.body-content {
+    min-width: 50px;
+    min-height: 50px;
+}
+.card {
+    width: 320px;
+    height: max-content;
+    min-width: 320px;
+    flex-shrink: 0;
+}
+.avatar::part(base) {
+    color: hsla(var(--igc-gray-800));
+    background-color: hsla(var(--igc-gray-400));
+}
+.button {
+    height: max-content;
+    min-width: min-content;
+    flex-shrink: 0;
+}
+.button::part(base) {
+    color: hsla(var(--igc-gray-900));
+    background-color: hsla(var(--igc-primary-400));
+}
+.input {
+    height: max-content;
+    min-width: min-content;
+    flex-shrink: 0;
+}
+.row {
+    display: flex;
+}
